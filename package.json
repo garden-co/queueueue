@@ -1,6 +1,6 @@
 {
   "name": "queueueue",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "source": "src/index.ts",
   "exports": {
     "require": "./dist/queueable.js",
@@ -11,7 +11,7 @@
   "main": "./dist/queueable.js",
   "module": "./dist/queueable.module.js",
   "unpkg": "./dist/queueable.umd.js",
-  "description": "Convert push-based streams to pull-based async iterables",
+  "description": "Convert push-based streams to pull-based async iterables (fork of queueable)",
   "keywords": [
     "async",
     "queue",
@@ -24,10 +24,10 @@
   "files": [
     "dist"
   ],
-  "author": "slikts <dabas@untu.ms>",
+  "author": "slikts <dabas@untu.ms> + Anselm Eickhoff <anselm@gcmp.io>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slikts/queueable.git"
+    "url": "git+https://github.com/gardencmp/queueueue"
   },
   "license": "MIT",
   "engines": {

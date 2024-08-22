@@ -11890,9 +11890,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"queueable@workspace:.":
+"queueueue@workspace:.":
   version: 0.0.0-use.local
-  resolution: "queueable@workspace:."
+  resolution: "queueueue@workspace:."
   dependencies:
     "@babel/core": ^7.22.5
     "@babel/preset-env": ^7.22.5
